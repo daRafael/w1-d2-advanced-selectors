@@ -1,0 +1,19 @@
+/* Next Sibling Selector */
+.first-input + input {
+  background-color: red;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.container .box {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.container div:first-child + div {
+  color: white;
+}
